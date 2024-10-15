@@ -17,4 +17,4 @@
 
 𝙽𝚊𝚟𝚎𝚐𝚊çã𝚘 𝚂𝚒𝚖𝚙𝚕𝚎𝚜: 𝙼𝚎𝚗𝚞 𝚒𝚗𝚝𝚞𝚒𝚝𝚒𝚟𝚘 𝚙𝚊𝚛𝚊 𝚏á𝚌𝚒𝚕 𝚊𝚌𝚎𝚜𝚜𝚘 𝚊 𝚍𝚒𝚏𝚎𝚛𝚎𝚗𝚝𝚎𝚜 𝚜𝚎çõ𝚎𝚜
 
-OBS: As informações com relação as análises não são precisas, este site foi feito com o intuito de demonstrar minhas habilidades em HTML e CSS. 
+*OBS: As informações com relação as análises não são precisas, este site foi feito com o intuito de demonstrar minhas habilidades em HTML e CSS.* 
