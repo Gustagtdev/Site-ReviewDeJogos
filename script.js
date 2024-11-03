@@ -15,4 +15,7 @@ var cx=document.getElementById('logo-destaque')
 		document.addEventListener('mouseup',function(){
 			isDragging = false //quando o botao do mouse for soltou
 		})
- 
+var f= document.getElemetById('foot')
+f.addEventListener('click',function(){
+	this.style.backgroundColor= 'white'
+})
