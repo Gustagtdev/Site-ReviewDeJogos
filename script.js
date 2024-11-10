@@ -21,7 +21,7 @@ var cx=document.getElementById('logo-destaque')
 var b= document.getElementById("btn")
 function clicar(){
 	b.innerText = 'Clicou!'
-	b.style.color = 'red'
+	b.style.backgroundColor = 'red'
  b.addEventListener('click',clicar)
 }
 
