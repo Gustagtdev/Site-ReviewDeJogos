@@ -15,7 +15,7 @@ var cx=document.getElementById('logo-destaque')
 		document.addEventListener('mouseup',function(){
 			isDragging = false 
 		})
-var b= document.getElementById('btn')
+var b= document.getElementById("btn")
 function entrar(){
 	b.innerText = 'Entrou!'
 	b.style.color = 'red'
