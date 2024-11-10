@@ -16,14 +16,10 @@ var cx=document.getElementById('logo-destaque')
 			isDragging = false 
 		})
 var b= document.getElementById("btn")
-function entrar(){
-	b.innerText = 'Entrou!'
+function clicar(){
+	b.innerText = 'Clicou!'
 	b.style.color = 'red'
 }
-b.addEventListener('mouseenter',entrar)
+b.addEventListener('click',clicar)
 	
 	
-function sair(){
-	b.style.color = 'blue'
-}
-b.addEventListener('mouseout',sair)
