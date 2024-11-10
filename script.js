@@ -1,8 +1,8 @@
 var cx=document.getElementById('logo-destaque')
- var isDragging = false //inicialmente nada está sendo arrastado
+ var isDragging = false 
 
  cx.addEventListener('mousedown',function(){
-	 isDragging = true // quando o botão é pressionado começa a andar
+	 isDragging = true
  })
  
  document.addEventListener('mousemove',function(e){
@@ -13,5 +13,5 @@ var cx=document.getElementById('logo-destaque')
 	})
 	 
 		document.addEventListener('mouseup',function(){
-			isDragging = false //quando o botao do mouse for soltou
+			isDragging = false 
 		})
