@@ -19,11 +19,10 @@ var cx=document.getElementById('logo-destaque')
 	
 }
 var b= document.getElementById("btn")
-function clicar(){
-	b.innerText = 'Clicou!'
-	b.style.backgroundColor = 'red'
- b.addEventListener('click',clicar)
-}
-
+b.addEventListener('click',function(){
+	this.style.color= "blue"
+	this.innerText= "Clicou!"
+	
+})
 	
 	
