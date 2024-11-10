@@ -15,11 +15,16 @@ var cx=document.getElementById('logo-destaque')
 		document.addEventListener('mouseup',function(){
 			isDragging = false 
 		})
-var b= document.getElementById("btn")
-function clicar(){
+document.addEventListener('click',function clicar(){
+	
+}
+// var b= document.getElementById("btn")
+/*function clicar(){
 	b.innerText = 'Clicou!'
 	b.style.color = 'red'
+ b.addEventListener('click',clicar)
 }
-b.addEventListener('click',clicar)
+*/
+
 	
 	
