@@ -16,6 +16,8 @@ var cx=document.getElementById('logo-destaque')
 			isDragging = false 
 		})
 document.addEventListener('click',function clicar(){
+	b.innerText = 'Clicou!'
+	b.style.color = 'red'
 	
 }
 // var b= document.getElementById("btn")
