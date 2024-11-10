@@ -15,3 +15,15 @@ var cx=document.getElementById('logo-destaque')
 		document.addEventListener('mouseup',function(){
 			isDragging = false 
 		})
+var b= document.getElemetById('btn')
+function entrar(){
+	b.innerText = 'Entrou!'
+	b.style.color = 'red'
+}
+b.addEventListener('mouseenter',entrar)
+	
+	
+function sair(){
+	b.style.color = 'blue'
+}
+b.addEventListener('mouseout',sair)
