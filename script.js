@@ -15,3 +15,10 @@ var cx=document.getElementById('logo-destaque')
 		document.addEventListener('mouseup',function(){
 			isDragging = false //quando o botao do mouse for soltou
 		})
+        function expandCard(card) {
+            card.classList.add('expanded');
+        }
+
+        function shrinkCard(card) {
+            card.classList.remove('expanded');
+        }
