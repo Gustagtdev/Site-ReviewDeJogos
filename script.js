@@ -18,10 +18,22 @@ var cx=document.getElementById('logo-destaque')
 
 	
 }
-var b= document.getElementById("btn")
-b.addEventListener('click',function(){
-	this.style.color= "blue"
-	this.innerText= "Clicou!"
+document.getElementById('comment-form').addEventListener('submit', function (event) {
+    event.preventDefault();  // Previne o envio do formulário para evitar recarregar a página
+    
+    const comment = document.getElementById('comment').value;
+    const button = document.getElementById('btn');
+    const card = document.getElementById('card');
+
+    // Alterando a cor e texto do botão
+    if (comment) {
+        // Alterar a cor do botão para verde e mudar o texto
+        button.style.backgroundColor = '#28a745';  // Cor verde
+        button.innerText = 'Comentário Enviado!';
+        
+        // Mostrar uma mensagem de sucesso
+        document.getElementById('response').innerHTML = '<div class="alert alert-success" role="alert">Comentário enviado com sucesso!</div>';
+        
 	
 })
 	
