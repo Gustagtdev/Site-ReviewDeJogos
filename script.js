@@ -15,3 +15,14 @@ var cx=document.getElementById('logo-destaque')
 		document.addEventListener('mouseup',function(){
 			isDragging = false //quando o botao do mouse for soltou
 		})
+jogo = document.querySelector('#jogos-avaliados')
+
+jogo.addEventListener('mouseover',function(){
+	this.style.width = '150px'
+	this.style.height='75px'
+})
+
+jogo.addEventListener('mouseout',function(){
+	this.style.width = '100px'
+	this.style.height='50px'
+})
