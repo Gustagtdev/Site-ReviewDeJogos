@@ -34,7 +34,32 @@ document.getElementById('comment-form').addEventListener('submit', function (eve
         // Mostrar uma mensagem de sucesso
         document.getElementById('response').innerHTML = '<div class="alert alert-success" role="alert">Comentário enviado com sucesso!</div>';
         
-	
-})
-	
+        // Expandir o card após o envio
+        expandCard(card);
+
+    } else {
+        // Alterar a cor do botão para vermelho e mudar o texto
+        button.style.backgroundColor = '#dc3545';  // Cor vermelha
+        button.innerText = 'Tente Novamente';
+        
+        // Mostrar uma mensagem de erro
+        document.getElementById('response').innerHTML = '<div class="alert alert-danger" role="alert">Por favor, escreva um comentário!</div>';
+        
+        // Contrair o card em caso de erro
+        shrinkCard(card);
+    }
+
+    // Limpar o campo de texto após o envio
+    document.getElementById('comment').value = '';
+});
+
+// Função para expandir o card
+function expandCard(card) {
+    card.classList.add('expanded');
+}
+
+// Função para contrair o card
+function shrinkCard(card) {
+    card.classList.remove('expanded');
+}
 	
